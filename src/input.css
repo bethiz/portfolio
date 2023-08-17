@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn{
+    @apply bg-gray-900 rounded-full py-5 px-10 mx-3;
+}
+
+.btn:hover{
+    @apply bg-blue-400;
+}
+
+.dropdown:hover .dropdown-menu{
+@apply block;
+}
+
